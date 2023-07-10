@@ -65,7 +65,6 @@ salary_id numeric,				оклад
 position_id varchar(50),			должность
 division_id varchar(50),			подразделения
 date_of_hiring mediumint(50),		дата найма
-branch_address_id varchar(50), 		адрес филиала
 project_id varchar(50),			проект, на который назначен
 )
 ```
