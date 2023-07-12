@@ -123,7 +123,7 @@ branch_address (
 branch_address_id primary_key,
 edge_or_region_id varchar(50),
 city_id varchar(50),
-street_and_house_id varchar(50),
+address_id varchar(50),
 )
 ```
 
@@ -148,9 +148,9 @@ city_name,
 Улица, дом (если есть)
 
 ```
-street_and_house (
-street_and_house_id primary_key,
-street_and_house_name varchar(50),
+address (
+address_id primary_key,
+address_name varchar(50),
 )
 ```
 
